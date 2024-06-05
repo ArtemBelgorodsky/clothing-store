@@ -27,7 +27,7 @@ export function ProductItem (props: ProductItemProps) {
     const discount = promotion.value * 100
 
     return (
-      <Tag variant="discount">{`sale ${discount}%`}</Tag>
+      <Tag variant="discount">{`скидка ${discount}%`}</Tag>
     )
   }
 
@@ -85,7 +85,7 @@ export function ProductItem (props: ProductItemProps) {
           <Image src={image} alt="" fill />
         </Styles.Figure>
         <Styles.Info>
-          <Typography size="xsm" color="text">{`${sizes.length} cores`}</Typography>
+          <Typography size="xsm" color="text">{`${sizes.length} размера`}</Typography>
           <Typography as="strong" fontWeight="400" color="heading" size="md">{name}</Typography>
           {renderPrice()}
           {renderDiscount()}

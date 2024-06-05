@@ -22,7 +22,7 @@ export function CartDialog (props: CartDialogProps) {
 
     return (
       <Box justifyContent="space-between">
-        <Typography fontWeight="600" color="heading" size="xsm">Sub total</Typography>
+        <Typography fontWeight="600" color="heading" size="xsm">Всего</Typography>
         <Typography size="xsm">{toLocaleString(resumeBuy?.subTotal)}</Typography>
       </Box>
     )
@@ -38,7 +38,7 @@ export function CartDialog (props: CartDialogProps) {
         alignItems="center"
         flexDirection="column"
       >
-        <Typography textAlign="center" size="xsm">There are no products in your shopping cart</Typography>
+        <Typography textAlign="center" size="xsm">Корзина пустая</Typography>
       </Box>
     )
   }
@@ -56,7 +56,7 @@ export function CartDialog (props: CartDialogProps) {
       <Styles.Portal>
         <Styles.Content>
           <Styles.Header>
-            <Typography as="strong" color="heading" size="md">My cart</Typography>
+            <Typography as="strong" color="heading" size="md">Моя корзина</Typography>
             <Styles.Close asChild>
               <ButtonIcon
                 label="close"
@@ -75,7 +75,7 @@ export function CartDialog (props: CartDialogProps) {
           )}
           {hasProducts && (
             <Box style={{ padding: '1rem' }} fullWidth>
-              <Button fullWidth>Buy</Button>
+              <Button fullWidth>Купить</Button>
             </Box>
           )}
         </Styles.Content>

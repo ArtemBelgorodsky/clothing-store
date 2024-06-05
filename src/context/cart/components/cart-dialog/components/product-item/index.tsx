@@ -80,14 +80,14 @@ export function ProductItem (props: ProductItemProps) {
           color="heading"
           fontWeight="400"
         >
-          Tamanho: {size.label}
+          Размер: {size.label}
         </Typography>
         <Typography 
           size="xsm" 
           color="heading"
           fontWeight="400"
         >
-          Quantidade: {size.quantity}
+          Количество: {size.quantity}
         </Typography>
       </Box>
     </Styles.Container>

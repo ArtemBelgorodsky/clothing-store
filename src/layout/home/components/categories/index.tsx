@@ -12,7 +12,7 @@ export function Category (props: CategoryProps) {
     <Styles.CategoryItem key={index}>
       <Styles.Content>
         <Styles.Title>{value.collection_type}</Styles.Title>
-        <Typography color="heading">Collection</Typography>
+        <Typography color="heading">Коллекция</Typography>
       </Styles.Content>
       <Styles.Figure>
         <Image 

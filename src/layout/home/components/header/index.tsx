@@ -48,12 +48,7 @@ export function Header () {
         <Styles.List onClick={() => setIsOpen(false)}>
           <li>
             <Link href={paths.home}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link href={paths.home}>
-              Cart
+              Главная
             </Link>
           </li>
         </Styles.List>

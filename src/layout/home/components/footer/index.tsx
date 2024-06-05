@@ -26,62 +26,58 @@ export function Footer () {
             gap={2}
           >
             <Box flexDirection="column" gap={1}>
-              <Typography fontWeight="500" size="md" color="heading">Categories</Typography>
+              <Typography fontWeight="500" size="md" color="heading">Категории</Typography>
               <Styles.List>
                 <li>
-                  <Link href="">Clothing</Link>
+                  <Link href="">Одежда</Link>
                 </li>
                 <li>
-                  <Link href="">Accessories</Link>
+                  <Link href="">Аксессуары</Link>
                 </li>
                 <li>
-                  <Link href="">Women</Link>
+                  <Link href="">Женская одежда</Link>
                 </li>
                 <li>
-                  <Link href="">Men</Link>
+                  <Link href="">Мужская одежда</Link>
                 </li>
                 <li>
-                  <Link href="">Shoes</Link>
+                  <Link href="">Обувь</Link>
                 </li>
                 <li>
-                  <Link href="">New Arrivals</Link>
-                </li>
-                <li>
-                  <Link href="">New Clearance</Link>
+                  <Link href="">Новые поступления</Link>
                 </li>
               </Styles.List>
             </Box>
             <Box flexDirection="column" gap={1}>
-              <Typography fontWeight="500" size="md" color="heading">Our policy</Typography>
+              <Typography fontWeight="500" size="md" color="heading">Наша политика</Typography>
               <Styles.List>
                 <li>
-                  <Link href="">Brands</Link>
+                  <Link href="">Наш бренд</Link>
                 </li>
                 <li>
-                  <Link href="">Contact us</Link>
+                  <Link href="">Связаться с нами</Link>
                 </li>
                 <li>
-                  <Link href="">About</Link>
+                  <Link href="">О нас</Link>
                 </li>
                 <li>
-                  <Link href="">Blog</Link>
+                  <Link href="">Блог</Link>
                 </li>
                 <li>
-                  <Link href="">Coming soon</Link>
+                  <Link href="">В разработке</Link>
                 </li>
                 <li>
-                  <Link href="">Shop</Link>
+                  <Link href="">Магазин</Link>
                 </li>
               </Styles.List>
             </Box>
             <Box flexDirection="column" gap={1}>
-              <Typography fontWeight="500" size="md" color="heading">Get in touch</Typography>
+              <Typography fontWeight="500" size="md" color="heading">Где нас найти</Typography>
               <Styles.List>
                 <li>
                   <Link href="">
-                    <span>Florenza</span><br />
-                    <span>P.O. Box 147 2546 Sociosqu Rd.</span><br />
-                    <span>Bethlehem Utah 02913</span>
+                    <span>Белгород</span><br />
+                    <span>просп. Богдана Хмельницкого, 137Т, Белгород (этаж 4)</span><br />
                   </Link>
                 </li>
                 <li>
@@ -93,7 +89,7 @@ export function Footer () {
               </Styles.List>
             </Box>
             <Box flexDirection="column" gap={1}>
-              <Typography fontWeight="500" size="md" color="heading">follow us</Typography>
+              <Typography fontWeight="500" size="md" color="heading">Подпишись на нас</Typography>
               <Styles.List>
                 <li>
                   <Link href="">
@@ -120,7 +116,7 @@ export function Footer () {
       <Container size="lg">
         <Box marginTop={3} marginBottom={3}>
           <Typography size="xsm">
-            © Floreza {new Date().getFullYear()}. Powered with 🧡  by <a target="_blank" rel="noreferrer" href="https://github.com/censuradho">Censuradho</a>.</Typography>
+            © Белгород {new Date().getFullYear()}</Typography>
         </Box>
       </Container>
     </>

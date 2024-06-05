@@ -14,7 +14,7 @@ export function BuyButtons (props: BuyButtonsProps) {
         onClick={onBuy} 
         disabled={disabled} 
         fullWidth
-      >Add to cart</Button>
+      >Добавить в корзину</Button>
     </Styles.Container>
   )
 }

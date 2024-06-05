@@ -42,15 +42,15 @@ export function Newsletter (props: NewsletterProps) {
             <Image src="/newsletter.png" alt="newsletter" fill />
           </Styles.Figure>
           <Styles.FormView>
-            <Typography as="strong" size="md" color="heading">Subscribe Newsletter.</Typography>
-            <Typography as="P">Subscribe the Anon to get latest products and discount update.</Typography>
+            <Typography as="strong" size="md" color="heading">Подписаться на рассылку</Typography>
+            <Typography as="P">Подпишитесь чтобы иметь свежие новости</Typography>
             <Styles.Form>
               <Input
                 leftIcon={{ name: 'email' }}
                 fullWidth
                 placeholder="E-mail address"
               />
-              <Button>Subscribe</Button>
+              <Button>Подписаться</Button>
             </Styles.Form>
           </Styles.FormView>
         </Styles.Content>

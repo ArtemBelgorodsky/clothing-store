@@ -46,7 +46,7 @@ export function Arrivals (props: ArrivalsProps) {
 
   return (
     <Styles.Container>
-      <SectionTitle>New Arrivals</SectionTitle>
+      <SectionTitle>Новые поступления</SectionTitle>
       <Styles.SlideView>
         <div ref={sliderRef} className="keen-slider">
           {renderSlides}

@@ -15,7 +15,7 @@ export function Colors (props: ColorProps) {
 
   return (
     <Styles.Container>
-      <Typography color="heading" size="md">Colors</Typography>
+      <Typography color="heading" size="md">Цвета</Typography>
       <Box gap={0.8} marginTop={1}>
         {renderColors}
       </Box>

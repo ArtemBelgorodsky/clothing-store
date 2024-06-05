@@ -73,7 +73,7 @@ export function Collections (props: CollectionsProps) {
   return (
     <Container size="lg">
       <Styles.Container>
-        <SectionTitle>Collections</SectionTitle>
+        <SectionTitle>Коллекции</SectionTitle>
         <div ref={sliderRef} className="keen-slider">
           {renderSlides}
         </div>

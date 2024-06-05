@@ -15,7 +15,7 @@ export function Description (props: DescriptionProps) {
 
   return (
     <Styles.Container>
-      <Typography as="strong" fontWeight="400" color="heading" size="md">Description</Typography>
+      <Typography as="strong" fontWeight="400" color="heading" size="md">Описание</Typography>
       <Styles.HiddenView hidden={isHidden}>
         <Typography size="xsm">{data?.description}</Typography>
       </Styles.HiddenView>
@@ -27,7 +27,7 @@ export function Description (props: DescriptionProps) {
             name: isHidden ? "arrowDown" : "arrowUp",
           }}
         >
-          {isHidden ? "Ver mais" : "Ver menos"}
+          {isHidden ? "Развернуть" : "Свернуть"}
         </Button>
       </Styles.ShowMoreView>
     </Styles.Container>

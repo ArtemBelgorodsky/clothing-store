@@ -2,7 +2,7 @@ import { StandardLonghandProperties } from '@stitches/react/types/css'
 
 export function toLocaleString (value: number) {
   return value.toLocaleString('pt-BR', {
-    currency: 'BRL',
+    currency: 'RUB',
     style: 'currency'
   })
 } 

@@ -8,13 +8,7 @@ export function Footer () {
     <>
       <Styles.Container>
         <Container size="lg">
-          <Image 
-            src="/logo.svg"
-            alt="logo"
-            width={100}
-            height={100}
-            style={{ objectFit: 'contain' }}
-          />
+          LOGO
         </Container>
         <Container size="lg">
           <Box 

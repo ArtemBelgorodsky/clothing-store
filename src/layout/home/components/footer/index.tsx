@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <>
       <Styles.Container>
-        <Container size="lg">LOGO</Container>
+        <Container size="lg">Магазин одежды Аванти</Container>
         <Container size="lg">
           <Box
             flexDirection={{

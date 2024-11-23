@@ -20,7 +20,7 @@ export function Header() {
         />
         <ButtonIcon label="search" icon={{ name: 'search', size: 15 }} />
       </Box>
-      <Link href="/">Магазин одежды</Link>
+      <Link href="/">Магазин одежды Аванти</Link>
 
       <Box alignItems="center" gap={0.5}>
         <ButtonIcon label="like" icon={{ name: 'heartOutline' }} />
@@ -29,7 +29,7 @@ export function Header() {
       <Styles.Navigation active={isOpen}>
         <Styles.NavHeader>
           <Box flex={1} justifyContent="center" alignItems="center">
-            Магазин Одежды "Аванти"
+            Магазин одежды Аванти
           </Box>
           <ButtonIcon
             onClick={() => setIsOpen(false)}

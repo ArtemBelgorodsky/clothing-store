@@ -116,7 +116,7 @@ export function Footer() {
       <Container size="lg">
         <Box marginTop={3} marginBottom={3}>
           <Typography size="xsm">
-            © Белгород {new Date().getFullYear()}
+            © Новочеркасск {new Date().getFullYear()}
           </Typography>
         </Box>
       </Container>

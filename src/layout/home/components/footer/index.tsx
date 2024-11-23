@@ -1,26 +1,26 @@
-import { Box, Container, Typography } from '@/components'
-import Image from 'next/image'
-import Link from 'next/link'
-import * as Styles from './styles'
+import { Box, Container, Typography } from '@/components';
+import Image from 'next/image';
+import Link from 'next/link';
+import * as Styles from './styles';
 
-export function Footer () {
+export function Footer() {
   return (
     <>
       <Styles.Container>
+        <Container size="lg">LOGO</Container>
         <Container size="lg">
-          LOGO
-        </Container>
-        <Container size="lg">
-          <Box 
+          <Box
             flexDirection={{
               '@initial': 'column',
-              '@table-min': 'row'
-            }} 
-            justifyContent="space-between" 
+              '@table-min': 'row',
+            }}
+            justifyContent="space-between"
             gap={2}
           >
             <Box flexDirection="column" gap={1}>
-              <Typography fontWeight="500" size="md" color="heading">Категории</Typography>
+              <Typography fontWeight="500" size="md" color="heading">
+                Категории
+              </Typography>
               <Styles.List>
                 <li>
                   <Link href="">Одежда</Link>
@@ -43,7 +43,9 @@ export function Footer () {
               </Styles.List>
             </Box>
             <Box flexDirection="column" gap={1}>
-              <Typography fontWeight="500" size="md" color="heading">Наша политика</Typography>
+              <Typography fontWeight="500" size="md" color="heading">
+                Наша политика
+              </Typography>
               <Styles.List>
                 <li>
                   <Link href="">Наш бренд</Link>
@@ -66,12 +68,16 @@ export function Footer () {
               </Styles.List>
             </Box>
             <Box flexDirection="column" gap={1}>
-              <Typography fontWeight="500" size="md" color="heading">Где нас найти</Typography>
+              <Typography fontWeight="500" size="md" color="heading">
+                Где нас найти
+              </Typography>
               <Styles.List>
                 <li>
                   <Link href="">
-                    <span>Белгород</span><br />
-                    <span>просп. Богдана Хмельницкого, 137Т, Белгород (этаж 4)</span><br />
+                    <span>Новочеркасск</span>
+                    <br />
+                    <span>Московская, 1</span>
+                    <br />
                   </Link>
                 </li>
                 <li>
@@ -83,12 +89,12 @@ export function Footer () {
               </Styles.List>
             </Box>
             <Box flexDirection="column" gap={1}>
-              <Typography fontWeight="500" size="md" color="heading">Подпишись на нас</Typography>
+              <Typography fontWeight="500" size="md" color="heading">
+                Подпишись на нас
+              </Typography>
               <Styles.List>
                 <li>
-                  <Link href="">
-                  Facebook
-                  </Link>
+                  <Link href="">Facebook</Link>
                 </li>
                 <li>
                   <Link href=""> Twitter</Link>
@@ -110,9 +116,10 @@ export function Footer () {
       <Container size="lg">
         <Box marginTop={3} marginBottom={3}>
           <Typography size="xsm">
-            © Белгород {new Date().getFullYear()}</Typography>
+            © Белгород {new Date().getFullYear()}
+          </Typography>
         </Box>
       </Container>
     </>
-  )
+  );
 }
